@@ -3,7 +3,7 @@ import { ContactList } from "./ContactsList/ContactList";
 import { nanoid } from "nanoid";
 import { Filter } from "./Filter/Filter";
 import { Message } from "./Message/Message";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 export const App = () => {
   const [state, setState] = useState({
